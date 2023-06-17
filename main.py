@@ -15,8 +15,8 @@ models.Base.metadata.create_all(engine)
 app.mount('/images', StaticFiles(directory='images'), name='images')
 
 origins = [
-    'http://localhost:3000',
-    'http://localhost:3001',
+    # 'http://localhost:3000',
+    # 'http://localhost:3001',
     'https://frontend-alex-basketball-blog-33bd30ff0233.herokuapp.com/'
 ]
 
